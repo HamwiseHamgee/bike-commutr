@@ -2,8 +2,6 @@ import axios from "axios";
 import { useEffect, useState, useContext } from "react";
 import CommuteItem from "./CommuteItem";
 import AuthContext from './AuthContext';
-import AuthContextProvider from "./AuthContextProvider";
-
 
 function CommuteList() {
   const { user } = useContext(AuthContext);

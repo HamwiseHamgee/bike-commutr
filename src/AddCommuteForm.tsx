@@ -1,7 +1,6 @@
 import { useState, useContext } from "react";
 import axios from "axios";
 import AuthContext from "./AuthContext";
-import AuthContextProvider from "./AuthContextProvider";
 
 const apiUrl =
   "https://us-central1-bike-commutr-sam-p.cloudfunctions.net/api/commute";
